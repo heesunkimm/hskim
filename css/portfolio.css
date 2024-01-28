@@ -151,7 +151,7 @@
     .project_text-box .project_period, .project_text-box .project_person {font-size: 2.0833vw; margin-top: 0.7813vw;}
     .project_text-box .project_information {font-size: 2.0833vw; line-height: 3.1250vw; margin-top: 0.7813vw;}
     .project_text-box .project_btn {display: flex; gap: 1.3021vw; margin-top: 1.3021vw;}
-    .project_text-box .project_code, .project_text-box .project_link {display: inline-block; padding:0.5208vw 2.6042vw; border: 0.1302vw solid #fff;}
+    .project_text-box .project_code, .project_text-box .project_link {display: inline-block; padding:0.5208vw 2.6042vw; border: 1px solid #fff; font-size: 2.0806vw;}
     .project_text-box .project_code:hover, .project_text-box .project_link:hover {background-color: #fff; color: #000;}
 
     /* option */
@@ -164,10 +164,10 @@
 
     #about .about_info {font-size: 2.3438vw; line-height: 3.1250vw; text-align: center;}
 
-    .contact {display: flex; flex-direction: column; justify-content: flex-start; padding: 2.6042vw 0 10.5020vw; height: 20vh; border-top: 0.1302vw solid rgba(92, 92, 92, 0.4);}
-    .contact .contact_title {margin-bottom: 2.6042vw;}
-    .contact .contact-box {display: flex; flex-wrap: wrap; justify-content: center; width: 90%;}
-    .contact .contact-box dl {width: 50%;}
-    .contact .contact-box dl+dl {margin: 1% 0;}
+    .contact {display: flex; flex-direction: column; justify-content: flex-start; padding: 2.6008 0; height: 13vh; border-top: 1px solid rgba(92, 92, 92, 0.4);}
+    .contact .contact_title {margin-bottom: 2.3889vw; font-size: 2.3vw;}
+    .contact .contact-box {display: flex; flex-wrap: wrap; justify-content: center; width: 100%; font-size: 2.3vw;}
+    .contact .contact-box dl {width: 45%;}
+    .contact .contact-box dl+dl {margin: 2% 0;}
     .contact .contact-box dd {margin-top: 0.7813vw;}
 }
