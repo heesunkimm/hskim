@@ -166,7 +166,7 @@
 
     .contact {display: flex; flex-direction: column; justify-content: flex-start; padding: 2.6008 0; height: 20vh; border-top: 1px solid rgba(92, 92, 92, 0.4);}
     .contact .contact_title {margin-bottom: 2.3889vw; font-size: 2.3vw;}
-    .contact .contact-box {display: flex; flex-wrap: wrap; justify-content: center; width: 100%; font-size: 1.8vw;}
+    .contact .contact-box {display: flex; flex-wrap: wrap; justify-content: center; width: 100%; font-size: 2vw;}
     .contact .contact-box dl {width: 50%;}
     .contact .contact-box dl:nth-child(2) {margin-top: 0;}
     .contact .contact-box dl+dl {margin: 2% 0;}
