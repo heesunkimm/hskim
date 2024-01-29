@@ -52,6 +52,24 @@ ScrollTrigger.create({
     anticipatePin: 1
 });
 
+// 이미지 순차 나열
+const ani2 = gsap.timeline();
+ani2.from("#summary .i1", {y: 100, autoAlpha:0, borderRadius: 200})
+    .from("#summary .i2", {y: 100, autoAlpha:0, borderRadius: 200})
+    .from("#summary .i3", {y: 100, autoAlpha:0, borderRadius: 200})
+    // .from("#summary .i4", {y: 100, autoAlpha:0, borderRadius: 200});
+
+ScrollTrigger.create({
+    animation: ani2,
+    trigger: "#summary",
+    start: "top top",
+    end: "+=2000",
+    scrub: true,
+    pin: true,
+    anticipatePin: 1,
+    markers: false
+});
+
 // 가로 효과
 const portfolio = document.querySelector("#portfolio"); 
 const portfolio__item = gsap.utils.toArray("#portfolio > div");

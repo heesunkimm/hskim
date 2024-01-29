@@ -24,7 +24,27 @@
     #portfolio__nav li a {display: inline-block; padding: 5px 10px; text-align: center; line-height: 30px;}
     #portfolio__nav li a.active {background: #fff; color: #000; border-radius: 20px;}
 
-    /* portfolio__cont */
+    /* intro */
+    #intro {flex-direction: column; height: 100vh;}
+    #intro .portfolio__item__text {font-size: 5vw; text-transform: uppercase; font-weight: bold;}
+
+    /* about */
+    #about .about_info {font-size: 22px; line-height: 28px; text-align: center;}
+
+    /* summary */
+    #summary {background-color: #000;}
+    #summary .summary__list {display: flex; justify-content: center; align-items: center;}
+    #summary .summary__item {width: 20vw;height: 20vw; margin: 1vw; text-align: center;}
+    #summary .summary__item-img {width: 10vw;height: 10vw;}
+    #summary .summary__text-box {margin-top: 10%;}
+    #summary .summary__text-box .summary__title {font-size: 22px; font-weight: 700;}
+    #summary .summary__text-box .summary__description {margin-top: 5%; font-size: 20px; line-height: 26px;}
+
+    /* portfolio */
+    #portfolio__cont {overflow: hidden;}
+    #portfolio {display: flex; flex-wrap: nowrap; width: 500%;}
+    #portfolio > div {width: 100%;}
+
     .portfolio__item {width: 100%; height: 100vh; position: relative; display: flex; align-items: center; justify-content: center;}
     .portfolio__item__num {font-size: 5vw; position: absolute; right: 20px; bottom: 20px; font-family: "Lato"; font-weight: 100; z-index: 100;}
     .portfolio__item__imgWrap {width: 40%; padding-bottom: 26%; position: relative; overflow: hidden;}
@@ -46,16 +66,7 @@
     .project_text-box .project_code, .project_text-box .project_link {display: inline-block; padding:4px 20px; border: 1px solid #fff;}
     .project_text-box .project_code:hover, .project_text-box .project_link:hover {background-color: #fff; color: #000;}
 
-    /* option */
-    #portfolio__cont {overflow: hidden;}
-    #portfolio {display: flex; flex-wrap: nowrap; width: 500%;}
-    #portfolio > div {width: 100%;}
-
-    #intro {flex-direction: column; height: 100vh;}
-    #intro .portfolio__item__text {font-size: 5vw; text-transform: uppercase; font-weight: bold;}
-
-    #about .about_info {font-size: 20px; line-height: 26px; text-align: center;}
-
+    /* contact */
     .contact {display: flex; flex-direction: column; justify-content: flex-start; padding: 20px 0; height: 20vh; border-top: 1px solid rgba(92, 92, 92, 0.4);}
     .contact .contact_title {margin-bottom: 20px;}
     .contact .contact-box {display: flex; justify-content: space-around; width: 100%;}
@@ -79,7 +90,27 @@
     #portfolio__nav li a {display: inline-block; padding: 0.3472vw 0.6944vw; text-align: center; line-height: 2.0833vw;}
     #portfolio__nav li a.active {background: #fff; color: #000; border-radius: 1.3889vw;}
 
-    /* portfolio__cont */
+    /* intro */
+    #intro {flex-direction: column; height: 100vh;}
+    #intro .portfolio__item__text {font-size: 5vw; text-transform: uppercase; font-weight: bold;}
+
+    /* about */
+    #about .about_info {font-size: 1.5278vw; line-height: 1.9444vw; text-align: center;}
+
+    /* summary */
+    #summary {background-color: #000;}
+    #summary .summary__list {display: flex; justify-content: center; align-items: center;}
+    #summary .summary__item {width: 20vw;height: 20vw; margin: 1vw; text-align: center;}
+    #summary .summary__item-img {width: 10vw;height: 10vw;}
+    #summary .summary__text-box {margin-top: 10%;}
+    #summary .summary__text-box .summary__title {font-size: 1.5278vw; font-weight: 700;}
+    #summary .summary__text-box .summary__description {margin-top: 5%; font-size: 1.3889vw; line-height: 1.8056vw;}
+
+    /* portfolio */
+    #portfolio__cont {overflow: hidden;}
+    #portfolio {display: flex; flex-wrap: nowrap; width: 500%;}
+    #portfolio > div {width: 100%;}
+
     .portfolio__item {width: 100%; height: 100vh; position: relative; display: flex; align-items: center; justify-content: center;}
     .portfolio__item__num {font-size: 5vw; position: absolute; right: 1.3889vw; bottom: 1.3889vw; font-family: "Lato"; font-weight: 100; z-index: 100;}
     .portfolio__item__imgWrap {width: 40%; padding-bottom: 26%; position: relative; overflow: hidden;}
@@ -101,16 +132,7 @@
     .project_text-box .project_code, .project_text-box .project_link {display: inline-block; padding:0.2778vw 1.3889vw; border: 0.0694vw solid #fff;}
     .project_text-box .project_code:hover, .project_text-box .project_link:hover {background-color: #fff; color: #000;}
 
-    /* option */
-    #portfolio__cont {overflow: hidden;}
-    #portfolio {display: flex; flex-wrap: nowrap; width: 500%;}
-    #portfolio > div {width: 100%;}
-
-    #intro {flex-direction: column; height: 100vh;}
-    #intro .portfolio__item__text {font-size: 5vw; text-transform: uppercase; font-weight: bold;}
-
-    #about .about_info {font-size: 1.3889vw; line-height: 1.8056vw; text-align: center;}
-
+    /* contact */
     .contact {display: flex; flex-direction: column; justify-content: flex-start; padding: 1.3889vw 0; height: 20vh; border-top: 0.0694vw solid rgba(92, 92, 92, 0.4);}
     .contact .contact_title {margin-bottom: 1.3889vw;}
     .contact .contact-box {display: flex; justify-content: space-around; width: 100%;}
@@ -134,7 +156,27 @@
     #portfolio__nav li a {display: inline-block; padding: 0.6510vw 1.3021vw; text-align: center; line-height: 3.9063vw;}
     #portfolio__nav li a.active {background: #fff; color: #000; border-radius: 2.6042vw;}
 
-    /* portfolio__cont */
+    /* intro */
+    #intro {flex-direction: column; height: 100vh;}
+    #intro .portfolio__item__text {font-size: 5vw; text-transform: uppercase; font-weight: bold;}
+
+    /* about */
+    #about .about_info {font-size: 3.1250vw; line-height: 3.9063vw; text-align: center;}
+
+    /* summary */
+    #summary {background-color: #000;}
+    #summary .summary__list {display: flex; flex-direction: column; justify-content: center; align-items: center;}
+    #summary .summary__item {display: flex; justify-content: space-between; align-content: center; width: 70vw;height: 20vw; margin: 1vw; text-align: left;}
+    #summary .summary__item-img {width: 20vw;height: 20vw;}
+    #summary .summary__text-box {display: flex; flex-direction: column; justify-content: center; width: 60%; margin-top: 0;}
+    #summary .summary__text-box .summary__title {font-size: 3.6vw;; font-weight: 700;}
+    #summary .summary__text-box .summary__description {margin-top: 5%; font-size: 2.8vw; line-height: 3.6vw;}
+
+    /* portfolio */
+    #portfolio__cont {overflow: hidden;}
+    #portfolio {display: flex; flex-wrap: nowrap; width: 500%;}
+    #portfolio > div {width: 100%;}
+
     .portfolio__item {width: 100%; height: 100vh; position: relative; display: flex; flex-direction: column; align-items: center; justify-content: center;}
     .portfolio__item__num {font-size: 5vw; position: absolute; right: 2.6042vw; bottom: 2.6042vw; font-family: "Lato"; font-weight: 100; z-index: 100;}
     .portfolio__item__imgWrap {width: 75%; padding-bottom: 40%; position: relative; overflow: hidden;}
@@ -156,15 +198,6 @@
     .project_text-box .project_code, .project_text-box .project_link {display: inline-block; padding:0.5208vw 2.6042vw; border: 1px solid #fff; font-size: 2.0806vw;}
     .project_text-box .project_code:hover, .project_text-box .project_link:hover {background-color: #fff; color: #000;}
 
-    /* option */
-    #portfolio__cont {overflow: hidden;}
-    #portfolio {display: flex; flex-wrap: nowrap; width: 500%;}
-    #portfolio > div {width: 100%;}
-
-    #intro {flex-direction: column; height: 100vh;}
-    #intro .portfolio__item__text {font-size: 5vw; text-transform: uppercase; font-weight: bold;}
-
-    #about .about_info {font-size: 3.1250vw; line-height: 3.9063vw; text-align: center;}
 
     .contact {display: flex; flex-direction: column; justify-content: flex-start; padding: 2.6008 0; height: 20vh; border-top: 1px solid rgba(92, 92, 92, 0.4);}
     .contact .contact_title {margin-bottom: 2.3889vw; font-size: 2.3vw;}
