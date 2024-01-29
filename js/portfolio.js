@@ -39,7 +39,6 @@ const ani5 = gsap.timeline();
 ani5.to("#intro .t1", {xPercent: 300}, "text")
     .to("#intro .t2", {xPercent: -300}, "text")
     .to("#intro .t3", {xPercent: 300}, "text")
-    // .to("#intro .t4", {xPercent: -300}, "text")
 
 ScrollTrigger.create({
     animation: ani5,
