@@ -151,7 +151,7 @@
     #portfolio__title li a {width: 2.6042vw; height: 2.6042vw; border-radius: 50%; border: 0.1302vw dashed #fff; display: inline-block; text-align: center; line-height: 2.6042vw; font-size: 1.5625vw;}
     #portfolio__title li.active a {background: #fff; color: #000;}
 
-    #portfolio__nav {position: fixed; right: 2.6042vw;top: 2.6042vw; z-index: 1000; background-color: rgba(255, 255, 255, 0.4); padding: 1.3021vw;}
+    #portfolio__nav {position: fixed; right: auto; left: 2.6042vw;top: 15.6042vw; z-index: 1000; background-color: rgba(255, 255, 255, 0.4); padding: 1.3021vw;}
     #portfolio__nav li {list-style: none; display: inline;}
     #portfolio__nav li a {display: inline-block; padding: 0.6510vw 1.3021vw; text-align: center; line-height: 3.9063vw;}
     #portfolio__nav li a.active {background: #fff; color: #000; border-radius: 2.6042vw;}
