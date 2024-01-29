@@ -54,10 +54,10 @@ ScrollTrigger.create({
 
 // 가로 효과
 const portfolio = document.querySelector("#portfolio"); 
-const sections = gsap.utils.toArray("#portfolio > section");
+const portfolio__item = gsap.utils.toArray("#portfolio > div");
 
-gsap.to(sections, {
-    xPercent: -100 * (sections.length -1),
+gsap.to(portfolio__item, {
+    xPercent: -100 * (portfolio__item.length -1),
     ease: "none",
     scrollTrigger: {
         trigger: portfolio,
@@ -66,7 +66,7 @@ gsap.to(sections, {
         pin: true,
         scrub: 1,
         snap: {
-            snapTo: 1/(sections.length -1),
+            snapTo: 1/(portfolio__item.length -1),
             inertia: false,
             duration: {min: 0.1, max: 0.1},
         },

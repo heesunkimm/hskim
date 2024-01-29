@@ -9,31 +9,31 @@
     ul li {list-style: none; text-decoration: none;}
     body {color: #fff; font-family: "NexonLv1Gothic"; font-weight: 300; background-color: #333;}
 
-    #parallax__title {position: fixed; left: 20px; top: 20px; z-index: 1000;}
-    #parallax__title h1 {font-size: 30px; font-family: "ChosunGs"; border-bottom: 1px dashed #fff; margin-bottom: 10px; padding-bottom: 5px; font-weight: 400; display: inline-block;}
-    #parallax__title p {font-size: 16px;}
-    #parallax__title ul {margin-top: 10px;}
-    #parallax__title li {display: inline;}
-    #parallax__title li a {width: 20px; height: 20px; border-radius: 50%; border: 1px dashed #fff; display: inline-block; text-align: center; line-height: 20px; font-size: 12px;}
-    #parallax__title li.active a {background: #fff; color: #000;}
+    #portfolio__title {position: fixed; left: 20px; top: 20px; z-index: 1000;}
+    #portfolio__title h1 {font-size: 30px; font-family: "ChosunGs"; border-bottom: 1px dashed #fff; margin-bottom: 10px; padding-bottom: 5px; font-weight: 400; display: inline-block;}
+    #portfolio__title p {font-size: 16px;}
+    #portfolio__title ul {margin-top: 10px;}
+    #portfolio__title li {display: inline;}
+    #portfolio__title li a {width: 20px; height: 20px; border-radius: 50%; border: 1px dashed #fff; display: inline-block; text-align: center; line-height: 20px; font-size: 12px;}
+    #portfolio__title li.active a {background: #fff; color: #000;}
 
-    #parallax__nav {position: fixed; right: 20px;top: 20px; z-index: 1000; background-color: rgba(255, 255, 255, 0.4); padding: 10px; border-radius: 50px;}
-    #parallax__nav li {list-style: none; display: inline;}
-    #parallax__nav li a {display: inline-block; padding: 5px 10px; text-align: center; line-height: 30px;}
-    #parallax__nav li a.active {background: #fff; color: #000; border-radius: 20px;}
+    #portfolio__nav {position: fixed; right: 20px;top: 20px; z-index: 1000; background-color: rgba(255, 255, 255, 0.4); padding: 10px;}
+    #portfolio__nav li {list-style: none; display: inline;}
+    #portfolio__nav li a {display: inline-block; padding: 5px 10px; text-align: center; line-height: 30px;}
+    #portfolio__nav li a.active {background: #fff; color: #000; border-radius: 20px;}
 
-    /* parallax__cont */
-    .parallax__item {width: 100%; height: 100vh; position: relative; display: flex; align-items: center; justify-content: center;}
-    .parallax__item__num {font-size: 5vw; position: absolute; right: 20px; bottom: 20px; font-family: "Lato"; font-weight: 100; z-index: 100;}
-    .parallax__item__imgWrap {width: 40%; padding-bottom: 26%; position: relative; overflow: hidden;}
-    .parallax__item__img {position: absolute; left: 0; top: 0; width: 100%; height: 100%; background-repeat: no-repeat; background-position: center center; background-size: cover; filter: saturate(0%); transition: all 1s;}
-    .parallax__item__img:hover {filter: saturate(100%); transform: scale(1.025);}
+    /* portfolio__cont */
+    .portfolio__item {width: 100%; height: 100vh; position: relative; display: flex; align-items: center; justify-content: center;}
+    .portfolio__item__num {font-size: 5vw; position: absolute; right: 20px; bottom: 20px; font-family: "Lato"; font-weight: 100; z-index: 100;}
+    .portfolio__item__imgWrap {width: 40%; padding-bottom: 26%; position: relative; overflow: hidden;}
+    .portfolio__item__img {position: absolute; left: 0; top: 0; width: 100%; height: 100%; background-repeat: no-repeat; background-position: center center; background-size: cover; filter: saturate(0%); transition: all 1s;}
+    .portfolio__item__img:hover {filter: saturate(100%); transform: scale(1.025);}
 
-    #portfolio--01 .parallax__item__img {background-image: url('../images/galaxy_s24_series.avif');}
-    #portfolio--02 .parallax__item__img {background-image: url('../images/galaxy_s23_fe.jpg.webp');}
-    #portfolio--03 .parallax__item__img {background-image: url('../images/jorygigi.webp');}
-    #portfolio--04 .parallax__item__img {background-image: url('../images/qled.jpg');}
-    #portfolio--05 .parallax__item__img {background-image: url('../images/e_foodmall.jpg');}
+    #portfolio--01 .portfolio__item__img {background-image: url('../images/galaxy_s24_series.avif');}
+    #portfolio--02 .portfolio__item__img {background-image: url('../images/galaxy_s23_fe.jpg.webp');}
+    #portfolio--03 .portfolio__item__img {background-image: url('../images/jorygigi.webp');}
+    #portfolio--04 .portfolio__item__img {background-image: url('../images/qled.jpg');}
+    #portfolio--05 .portfolio__item__img {background-image: url('../images/e_foodmall.jpg');}
     #intro, #portfolio--01, #portfolio--03, #portfolio--05, #contact {background-color: #111;}
 
     .project_text-box {margin-left: 20px;}
@@ -45,12 +45,12 @@
     .project_text-box .project_code:hover, .project_text-box .project_link:hover {background-color: #fff; color: #000;}
 
     /* option */
-    #parallax__cont {overflow: hidden;}
+    #portfolio__cont {overflow: hidden;}
     #portfolio {display: flex; flex-wrap: nowrap; width: 500%;}
     #portfolio > section {width: 100%;}
 
     #intro {flex-direction: column; height: 100vh;}
-    #intro .parallax__item__text {font-size: 5vw; text-transform: uppercase; font-weight: bold;}
+    #intro .portfolio__item__text {font-size: 5vw; text-transform: uppercase; font-weight: bold;}
 
     #about .about_info {font-size: 18px; line-height: 24px; text-align: center;}
 
@@ -64,31 +64,31 @@
     .m_hide {display: block;}
     .m_show {display: none;}
 
-    #parallax__title {position: fixed; left: 1.3889vw; top: 1.3889vw; z-index: 1000;}
-    #parallax__title h1 {font-size: 2.0833vw; font-family: "ChosunGs"; border-bottom: 0.0694vw dashed #fff; margin-bottom: 0.6944vw; padding-bottom: 0.3472vw; font-weight: 400; display: inline-block;}
-    #parallax__title p {font-size: 1.1111vw;}
-    #parallax__title ul {margin-top: 0.6944vw;}
-    #parallax__title li {display: inline;}
-    #parallax__title li a {width: 1.3889vw; height: 1.3889vw; border-radius: 50%; border: 0.0694vw dashed #fff; display: inline-block; text-align: center; line-height: 1.3889vw; font-size: 0.8333vw;}
-    #parallax__title li.active a {background: #fff; color: #000;}
+    #portfolio__title {position: fixed; left: 1.3889vw; top: 1.3889vw; z-index: 1000;}
+    #portfolio__title h1 {font-size: 2.0833vw; font-family: "ChosunGs"; border-bottom: 0.0694vw dashed #fff; margin-bottom: 0.6944vw; padding-bottom: 0.3472vw; font-weight: 400; display: inline-block;}
+    #portfolio__title p {font-size: 1.1111vw;}
+    #portfolio__title ul {margin-top: 0.6944vw;}
+    #portfolio__title li {display: inline;}
+    #portfolio__title li a {width: 1.3889vw; height: 1.3889vw; border-radius: 50%; border: 0.0694vw dashed #fff; display: inline-block; text-align: center; line-height: 1.3889vw; font-size: 0.8333vw;}
+    #portfolio__title li.active a {background: #fff; color: #000;}
 
-    #parallax__nav {position: fixed; right: 1.3889vw;top: 1.3889vw; z-index: 1000; background-color: rgba(255, 255, 255, 0.4); padding: 0.6944vw; border-radius: 3.4722vw;}
-    #parallax__nav li {list-style: none; display: inline;}
-    #parallax__nav li a {display: inline-block; padding: 0.3472vw 0.6944vw; text-align: center; line-height: 2.0833vw;}
-    #parallax__nav li a.active {background: #fff; color: #000; border-radius: 1.3889vw;}
+    #portfolio__nav {position: fixed; right: 1.3889vw;top: 1.3889vw; z-index: 1000; background-color: rgba(255, 255, 255, 0.4); padding: 0.6944vw;}
+    #portfolio__nav li {list-style: none; display: inline;}
+    #portfolio__nav li a {display: inline-block; padding: 0.3472vw 0.6944vw; text-align: center; line-height: 2.0833vw;}
+    #portfolio__nav li a.active {background: #fff; color: #000; border-radius: 1.3889vw;}
 
-    /* parallax__cont */
-    .parallax__item {width: 100%; height: 100vh; position: relative; display: flex; align-items: center; justify-content: center;}
-    .parallax__item__num {font-size: 5vw; position: absolute; right: 1.3889vw; bottom: 1.3889vw; font-family: "Lato"; font-weight: 100; z-index: 100;}
-    .parallax__item__imgWrap {width: 40%; padding-bottom: 26%; position: relative; overflow: hidden;}
-    .parallax__item__img {position: absolute; left: 0; top: 0; width: 100%; height: 100%; background-repeat: no-repeat; background-position: center center; background-size: cover; filter: saturate(0%); transition: all 1s;}
-    .parallax__item__img:hover {filter: saturate(100%); transform: scale(1.025);}
+    /* portfolio__cont */
+    .portfolio__item {width: 100%; height: 100vh; position: relative; display: flex; align-items: center; justify-content: center;}
+    .portfolio__item__num {font-size: 5vw; position: absolute; right: 1.3889vw; bottom: 1.3889vw; font-family: "Lato"; font-weight: 100; z-index: 100;}
+    .portfolio__item__imgWrap {width: 40%; padding-bottom: 26%; position: relative; overflow: hidden;}
+    .portfolio__item__img {position: absolute; left: 0; top: 0; width: 100%; height: 100%; background-repeat: no-repeat; background-position: center center; background-size: cover; filter: saturate(0%); transition: all 1s;}
+    .portfolio__item__img:hover {filter: saturate(100%); transform: scale(1.025);}
 
-    #portfolio--01 .parallax__item__img {background-image: url('../images/galaxy_s24_series.avif');}
-    #portfolio--02 .parallax__item__img {background-image: url('../images/galaxy_s23_fe.jpg.webp');}
-    #portfolio--03 .parallax__item__img {background-image: url('../images/jorygigi.webp');}
-    #portfolio--04 .parallax__item__img {background-image: url('../images/qled.jpg');}
-    #portfolio--05 .parallax__item__img {background-image: url('../images/e_foodmall.jpg');}
+    #portfolio--01 .portfolio__item__img {background-image: url('../images/galaxy_s24_series.avif');}
+    #portfolio--02 .portfolio__item__img {background-image: url('../images/galaxy_s23_fe.jpg.webp');}
+    #portfolio--03 .portfolio__item__img {background-image: url('../images/jorygigi.webp');}
+    #portfolio--04 .portfolio__item__img {background-image: url('../images/qled.jpg');}
+    #portfolio--05 .portfolio__item__img {background-image: url('../images/e_foodmall.jpg');}
     #intro, #portfolio--01, #portfolio--03, #portfolio--05, #contact {background-color: #111;}
 
     .project_text-box {margin-left: 1.3889vw;}
@@ -100,12 +100,12 @@
     .project_text-box .project_code:hover, .project_text-box .project_link:hover {background-color: #fff; color: #000;}
 
     /* option */
-    #parallax__cont {overflow: hidden;}
+    #portfolio__cont {overflow: hidden;}
     #portfolio {display: flex; flex-wrap: nowrap; width: 500%;}
     #portfolio > section {width: 100%;}
 
     #intro {flex-direction: column; height: 100vh;}
-    #intro .parallax__item__text {font-size: 5vw; text-transform: uppercase; font-weight: bold;}
+    #intro .portfolio__item__text {font-size: 5vw; text-transform: uppercase; font-weight: bold;}
 
     #about .about_info {font-size: 1.2500vw; line-height: 1.6667vw; text-align: center;}
 
@@ -119,31 +119,31 @@
     .m_hide {display: none;}
     .m_show {display: block;}
 
-    #parallax__title {position: fixed; left: 2.6042vw; top: 2.6042vw; z-index: 1000;}
-    #parallax__title h1 {font-size: 3.9063vw; font-family: "ChosunGs"; border-bottom: 0.1302vw dashed #fff; margin-bottom: 1.3021vw; padding-bottom: 0.6510vw; font-weight: 400; display: inline-block;}
-    #parallax__title p {font-size: 2.0833vw;}
-    #parallax__title ul {margin-top: 1.3021vw;}
-    #parallax__title li {display: inline;}
-    #parallax__title li a {width: 2.6042vw; height: 2.6042vw; border-radius: 50%; border: 0.1302vw dashed #fff; display: inline-block; text-align: center; line-height: 2.6042vw; font-size: 1.5625vw;}
-    #parallax__title li.active a {background: #fff; color: #000;}
+    #portfolio__title {position: fixed; left: 2.6042vw; top: 2.6042vw; z-index: 1000;}
+    #portfolio__title h1 {font-size: 3.9063vw; font-family: "ChosunGs"; border-bottom: 0.1302vw dashed #fff; margin-bottom: 1.3021vw; padding-bottom: 0.6510vw; font-weight: 400; display: inline-block;}
+    #portfolio__title p {font-size: 2.0833vw;}
+    #portfolio__title ul {margin-top: 1.3021vw;}
+    #portfolio__title li {display: inline;}
+    #portfolio__title li a {width: 2.6042vw; height: 2.6042vw; border-radius: 50%; border: 0.1302vw dashed #fff; display: inline-block; text-align: center; line-height: 2.6042vw; font-size: 1.5625vw;}
+    #portfolio__title li.active a {background: #fff; color: #000;}
 
-    #parallax__nav {position: fixed; right: 2.6042vw;top: 2.6042vw; z-index: 1000; background-color: rgba(255, 255, 255, 0.4); padding: 1.3021vw; border-radius: 6.5104vw;}
-    #parallax__nav li {list-style: none; display: inline;}
-    #parallax__nav li a {display: inline-block; padding: 0.6510vw 1.3021vw; text-align: center; line-height: 3.9063vw;}
-    #parallax__nav li a.active {background: #fff; color: #000; border-radius: 2.6042vw;}
+    #portfolio__nav {position: fixed; right: 2.6042vw;top: 2.6042vw; z-index: 1000; background-color: rgba(255, 255, 255, 0.4); padding: 1.3021vw;}
+    #portfolio__nav li {list-style: none; display: inline;}
+    #portfolio__nav li a {display: inline-block; padding: 0.6510vw 1.3021vw; text-align: center; line-height: 3.9063vw;}
+    #portfolio__nav li a.active {background: #fff; color: #000; border-radius: 2.6042vw;}
 
-    /* parallax__cont */
-    .parallax__item {width: 100%; height: 100vh; position: relative; display: flex; flex-direction: column; align-items: center; justify-content: center;}
-    .parallax__item__num {font-size: 5vw; position: absolute; right: 2.6042vw; bottom: 2.6042vw; font-family: "Lato"; font-weight: 100; z-index: 100;}
-    .parallax__item__imgWrap {width: 60%; padding-bottom: 40%; position: relative; overflow: hidden;}
-    .parallax__item__img {position: absolute; left: 0; top: 0; width: 100%; height: 100%; background-repeat: no-repeat; background-position: center center; background-size: cover; filter: saturate(0%); transition: all 1s;}
-    .parallax__item__img:hover {filter: saturate(100%); transform: scale(1.025);}
+    /* portfolio__cont */
+    .portfolio__item {width: 100%; height: 100vh; position: relative; display: flex; flex-direction: column; align-items: center; justify-content: center;}
+    .portfolio__item__num {font-size: 5vw; position: absolute; right: 2.6042vw; bottom: 2.6042vw; font-family: "Lato"; font-weight: 100; z-index: 100;}
+    .portfolio__item__imgWrap {width: 60%; padding-bottom: 40%; position: relative; overflow: hidden;}
+    .portfolio__item__img {position: absolute; left: 0; top: 0; width: 100%; height: 100%; background-repeat: no-repeat; background-position: center center; background-size: cover; filter: saturate(0%); transition: all 1s;}
+    .portfolio__item__img:hover {filter: saturate(100%); transform: scale(1.025);}
 
-    #portfolio--01 .parallax__item__img {background-image: url('../images/galaxy_s24_series.avif');}
-    #portfolio--02 .parallax__item__img {background-image: url('../images/galaxy_s23_fe.jpg.webp');}
-    #portfolio--03 .parallax__item__img {background-image: url('../images/jorygigi.webp');}
-    #portfolio--04 .parallax__item__img {background-image: url('../images/qled.jpg');}
-    #portfolio--05 .parallax__item__img {background-image: url('../images/e_foodmall.jpg');}
+    #portfolio--01 .portfolio__item__img {background-image: url('../images/galaxy_s24_series.avif');}
+    #portfolio--02 .portfolio__item__img {background-image: url('../images/galaxy_s23_fe.jpg.webp');}
+    #portfolio--03 .portfolio__item__img {background-image: url('../images/jorygigi.webp');}
+    #portfolio--04 .portfolio__item__img {background-image: url('../images/qled.jpg');}
+    #portfolio--05 .portfolio__item__img {background-image: url('../images/e_foodmall.jpg');}
     #intro, #portfolio--01, #portfolio--03, #portfolio--05, #contact {background-color: #111;}
 
     .project_text-box {margin-left: 0; margin-top: 2.6042vw;}
@@ -155,12 +155,12 @@
     .project_text-box .project_code:hover, .project_text-box .project_link:hover {background-color: #fff; color: #000;}
 
     /* option */
-    #parallax__cont {overflow: hidden;}
+    #portfolio__cont {overflow: hidden;}
     #portfolio {display: flex; flex-wrap: nowrap; width: 500%;}
     #portfolio > section {width: 100%;}
 
     #intro {flex-direction: column; height: 100vh;}
-    #intro .parallax__item__text {font-size: 5vw; text-transform: uppercase; font-weight: bold;}
+    #intro .portfolio__item__text {font-size: 5vw; text-transform: uppercase; font-weight: bold;}
 
     #about .about_info {font-size: 2.3438vw; line-height: 3.1250vw; text-align: center;}
 
