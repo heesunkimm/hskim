@@ -70,7 +70,7 @@
     .contact {display: flex; flex-direction: column; justify-content: flex-start; padding: 20px 0; height: 20vh; border-top: 1px solid rgba(92, 92, 92, 0.4);}
     .contact .contact_title {margin-bottom: 20px;}
     .contact .contact-box {display: flex; justify-content: space-around; width: 100%;}
-    .contact .contact-box dl {width: 300px;}
+    .contact .contact-box dl {width: 25%; padding-left: 1%;}
     .contact .contact-box dd {margin-top: 6px;}
 
 @media all and (min-width:769px) and (max-width:1440px) {
@@ -136,7 +136,7 @@
     .contact {display: flex; flex-direction: column; justify-content: flex-start; padding: 1.3889vw 0; height: 20vh; border-top: 0.0694vw solid rgba(92, 92, 92, 0.4);}
     .contact .contact_title {margin-bottom: 1.3889vw;}
     .contact .contact-box {display: flex; justify-content: space-around; width: 100%;}
-    .contact .contact-box dl {width: 20.8333vw;}
+    .contact .contact-box dl {width: 25%; padding-left:1%;}
     .contact .contact-box dd {margin-top: 0.4167vw;}
 }
 @media all and (max-width:768px){
@@ -201,7 +201,7 @@
     .contact {display: flex; flex-direction: column; justify-content: flex-start; padding: 2.6008 0; height: 20vh; border-top: 1px solid rgba(92, 92, 92, 0.4);}
     .contact .contact_title {margin-bottom: 2.3889vw; font-size: 2.3vw;}
     .contact .contact-box {display: flex; flex-wrap: wrap; justify-content: center; width: 100%; font-size: 2vw;}
-    .contact .contact-box dl {width: 47%;}
+    .contact .contact-box dl {width: 47%; padding-left: 1%;}
     .contact .contact-box dl:nth-child(2) {margin-top: 0;}
     .contact .contact-box dl+dl {margin: 2% 0;}
     .contact .contact-box dd {margin-top: 0.7813vw;}
