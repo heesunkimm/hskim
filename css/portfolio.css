@@ -8,6 +8,8 @@
     a {color: #fff; text-decoration: none;}
     ul li {list-style: none; text-decoration: none;}
     body {color: #fff; font-family: "NexonLv1Gothic"; font-weight: 300; background-color: #333;}
+    .m_hide {display: block;}
+    .m_show {display: none;}
 
     #portfolio__title {position: fixed; left: 20px; top: 20px; z-index: 1000;}
     #portfolio__title h1 {font-size: 30px; font-family: "ChosunGs"; border-bottom: 1px dashed #fff; margin-bottom: 10px; padding-bottom: 5px; font-weight: 400; display: inline-block;}
@@ -47,12 +49,12 @@
     /* option */
     #portfolio__cont {overflow: hidden;}
     #portfolio {display: flex; flex-wrap: nowrap; width: 500%;}
-    #portfolio > section {width: 100%;}
+    #portfolio > div {width: 100%;}
 
     #intro {flex-direction: column; height: 100vh;}
     #intro .portfolio__item__text {font-size: 5vw; text-transform: uppercase; font-weight: bold;}
 
-    #about .about_info {font-size: 18px; line-height: 24px; text-align: center;}
+    #about .about_info {font-size: 20px; line-height: 26px; text-align: center;}
 
     .contact {display: flex; flex-direction: column; justify-content: flex-start; padding: 20px 0; height: 20vh; border-top: 1px solid rgba(92, 92, 92, 0.4);}
     .contact .contact_title {margin-bottom: 20px;}
@@ -102,12 +104,12 @@
     /* option */
     #portfolio__cont {overflow: hidden;}
     #portfolio {display: flex; flex-wrap: nowrap; width: 500%;}
-    #portfolio > section {width: 100%;}
+    #portfolio > div {width: 100%;}
 
     #intro {flex-direction: column; height: 100vh;}
     #intro .portfolio__item__text {font-size: 5vw; text-transform: uppercase; font-weight: bold;}
 
-    #about .about_info {font-size: 1.2500vw; line-height: 1.6667vw; text-align: center;}
+    #about .about_info {font-size: 1.3889vw; line-height: 1.8056vw; text-align: center;}
 
     .contact {display: flex; flex-direction: column; justify-content: flex-start; padding: 1.3889vw 0; height: 20vh; border-top: 0.0694vw solid rgba(92, 92, 92, 0.4);}
     .contact .contact_title {margin-bottom: 1.3889vw;}
@@ -135,7 +137,7 @@
     /* portfolio__cont */
     .portfolio__item {width: 100%; height: 100vh; position: relative; display: flex; flex-direction: column; align-items: center; justify-content: center;}
     .portfolio__item__num {font-size: 5vw; position: absolute; right: 2.6042vw; bottom: 2.6042vw; font-family: "Lato"; font-weight: 100; z-index: 100;}
-    .portfolio__item__imgWrap {width: 60%; padding-bottom: 40%; position: relative; overflow: hidden;}
+    .portfolio__item__imgWrap {width: 75%; padding-bottom: 40%; position: relative; overflow: hidden;}
     .portfolio__item__img {position: absolute; left: 0; top: 0; width: 100%; height: 100%; background-repeat: no-repeat; background-position: center center; background-size: cover; filter: saturate(0%); transition: all 1s;}
     .portfolio__item__img:hover {filter: saturate(100%); transform: scale(1.025);}
 
@@ -146,10 +148,10 @@
     #portfolio--05 .portfolio__item__img {background-image: url('../images/e_foodmall.jpg');}
     #intro, #portfolio--01, #portfolio--03, #portfolio--05, #contact {background-color: #111;}
 
-    .project_text-box {margin-left: 0; margin-top: 2.6042vw;}
-    .project_text-box .project_title {font-size: 3.1250vw; font-weight: bold;}
-    .project_text-box .project_period, .project_text-box .project_person {font-size: 2.0833vw; margin-top: 0.7813vw;}
-    .project_text-box .project_information {font-size: 2.0833vw; line-height: 3.1250vw; margin-top: 0.7813vw;}
+    .project_text-box {width: 75%; margin-left: 0; margin-top: 2.6042vw;}
+    .project_text-box .project_title {font-size: 3.6vw; font-weight: bold;}
+    .project_text-box .project_period, .project_text-box .project_person {font-size: 2.8vw; margin-top: 0.7813vw;}
+    .project_text-box .project_information {font-size: 2.8vw; line-height: 3.6vw; margin-top: 0.7813vw;}
     .project_text-box .project_btn {display: flex; gap: 1.3021vw; margin-top: 1.3021vw;}
     .project_text-box .project_code, .project_text-box .project_link {display: inline-block; padding:0.5208vw 2.6042vw; border: 1px solid #fff; font-size: 2.0806vw;}
     .project_text-box .project_code:hover, .project_text-box .project_link:hover {background-color: #fff; color: #000;}
@@ -157,12 +159,12 @@
     /* option */
     #portfolio__cont {overflow: hidden;}
     #portfolio {display: flex; flex-wrap: nowrap; width: 500%;}
-    #portfolio > section {width: 100%;}
+    #portfolio > div {width: 100%;}
 
     #intro {flex-direction: column; height: 100vh;}
     #intro .portfolio__item__text {font-size: 5vw; text-transform: uppercase; font-weight: bold;}
 
-    #about .about_info {font-size: 2.3438vw; line-height: 3.1250vw; text-align: center;}
+    #about .about_info {font-size: 3.1250vw; line-height: 3.9063vw; text-align: center;}
 
     .contact {display: flex; flex-direction: column; justify-content: flex-start; padding: 2.6008 0; height: 20vh; border-top: 1px solid rgba(92, 92, 92, 0.4);}
     .contact .contact_title {margin-bottom: 2.3889vw; font-size: 2.3vw;}
